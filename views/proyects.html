@@ -21,7 +21,7 @@
 
 
 <body data-spy="scroll" data-offset="64" data-target="#section-topbar" id="proyects">
-    <nav class="navbar navbar-inverse" id="section-topbar">
+    <!-- <nav class="navbar navbar-inverse" id="section-topbar">
         <div class="container-fluid">
             <div class="navbar-header">
                 <a class="navbar-brand" href="../index.html">Jonny Cano</a>
@@ -30,11 +30,27 @@
                 <li class="menu-item"><a href="../index.html#about" title="About"><i class="fa fa-user" aria-hidden="true"></i></a></li>
                 <li class="menu-item"><a href="../index.html#resume" title="Resume"><i class="fa fa-file-text-o"></i></a></li>
                 <li class="menu-item"><a href="../index.html#skillswrap" title="Skills"><i class="fa-solid fa-code"></i></a></li>
-                <!-- <li class="menu-item"><a class="smothscroll" href="#work" title="Works"><i class="fa fa-briefcase"></i></a></li> -->
                 <li class="menu-item"><a href="./views/proyects.html" title="My proyect"><i class="fa-solid fa-diagram-project"></i></a></li>
             </ul>
         </div>
-    </nav>
+    </nav> -->
+    <div class="navigation">
+        <div class="userBx">
+            <div class="imgBx">
+                <a href="../index.html">
+                    <img src="../img/JonnyCano.jpg" />
+                </a>
+            </div>
+            <p class="username">Jonny Alejandro <br /> Cano Acosta</p>
+        </div>
+        <div class="menuToggle" onclick="activateNav()"></div>
+        <ul class="menu">
+            <li><a href="../index.html#about" onclick="activateNav()" title="About"><i class="fa fa-user" aria-hidden="true"></i>About</a></li>
+            <li><a href="../index.html#resume" onclick="activateNav()" title="Resume"><i class="fa fa-file-text-o"></i>Resume</a></li>
+            <li><a href="../index.html#skillswrap" onclick="activateNav()" title="Skills"><i class="fa-solid fa-code"></i>Skills</a></li>
+            <li><a href="./proyects.html" onclick="activateNav()" title="My proyect"><i class="fa-solid fa-diagram-project"></i>My proyects</a></li>
+        </ul>
+    </div>
     <article class="marginTop">
         <div class="contentTarjetProyect">
             <div class="tarjet">

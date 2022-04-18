@@ -127,3 +127,10 @@ jQuery(document).ready(function($) {
     var myDoughnut = new Chart(document.getElementById("git").getContext("2d")).Doughnut(doughnutData);
 
 });
+
+
+let navigation = document.querySelector('.navigation');
+
+function activateNav() {
+    navigation.classList.toggle('active')
+}
