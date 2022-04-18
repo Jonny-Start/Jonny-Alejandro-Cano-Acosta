@@ -68,7 +68,8 @@ body#proyects {
         align-items: center;
     }
     .container .card .content h3 {
-        color: #ff0057;
+        color: #34495e;
+        margin-top: 0.9em;
         margin-bottom: 5px;
         font-size: 24px;
     }
@@ -128,5 +129,11 @@ body#proyects {
             padding: 20px 40px 40px;
             border-top: 100px solid #fff;
         }
+        .container .card .content h3 {
+            margin-top: 0em;
+        }
+    }
+    .container {
+        margin: 0;
     }
 }
